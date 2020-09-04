@@ -39,7 +39,7 @@ const renderTodos = (todos , filters) => {
     } else {
         const emptyMessage = document.createElement('p')
         emptyMessage.classList.add('empty-message')
-        emptyMessage.textContent = 'No to-do to show'
+        emptyMessage.textContent = 'Ther are no to-do to show'
         todoEl.appendChild(emptyMessage)
 
     }
